@@ -4,7 +4,7 @@
 // -- 원형 큐 코드 시작 --
 
 
-#define MAX_QUEUE_SIZE 11
+#define MAX_QUEUE_SIZE 5
 
 // 큐의 최대 크기를 정의
 typedef int element; // 큐에 저장할 int형 데이터를 선언할 때, 구분하기 쉽도록 별칭을 지정.
