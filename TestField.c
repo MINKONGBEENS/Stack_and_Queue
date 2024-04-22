@@ -57,7 +57,7 @@ void queue_print(QueueType *q) { // 큐의 내용을 출력하는 함수
 
     printf("QUEUE(front=%d rear=%d) = ", q->front, q->rear); // 큐의 시작과 끝을 출력
     if (!is_empty(q)) { // 큐가 비어있지 않다면
-        int i = q->front; // 시작부터 시작
+        int i = q->front; // front가 가리키는 위치부터 시작
         do {
             i = (i + 1) % (MAX_QUEUE_SIZE); // 한 칸씩 전진하며 출력
             printf("%d |", q->data[i]); // 큐의 내용을 출력
